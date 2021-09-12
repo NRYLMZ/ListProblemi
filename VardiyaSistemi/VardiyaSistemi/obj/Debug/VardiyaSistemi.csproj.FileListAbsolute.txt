@@ -1,0 +1,7 @@
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\bin\Debug\VardiyaSistemi.exe.config
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\bin\Debug\VardiyaSistemi.exe
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\bin\Debug\VardiyaSistemi.pdb
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\obj\Debug\VardiyaSistemi.csprojAssemblyReference.cache
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\obj\Debug\VardiyaSistemi.csproj.CoreCompileInputs.cache
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\obj\Debug\VardiyaSistemi.exe
+C:\Users\nurul\source\repos\VardiyaSistemi\VardiyaSistemi\obj\Debug\VardiyaSistemi.pdb
