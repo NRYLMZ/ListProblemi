@@ -8,47 +8,7 @@ namespace VardiyaSistemi
 {
     class Program
     {
-        private static List<List<T>> GenerateCombinations<T>(List<List<T>> collectionOfSeries)
-        {
-            List<List<T>> generatedCombinations =
-                collectionOfSeries.Take(1)
-                                  .FirstOrDefault()
-                                  .Select(i => (new T[] { i }).ToList())
-                                  .ToList();
-
-            foreach (List<T> series in collectionOfSeries.Skip(1))
-            {
-                generatedCombinations =
-                    generatedCombinations
-                          .Join(series as List<T>,
-                                combination => true,
-                                i => true,
-                                (combination, i) =>
-                                {
-                                    List<T> nextLevelCombination =
-                                new List<T>(combination);
-                                    nextLevelCombination.Add(i);
-                                    return nextLevelCombination;
-                                }).ToList();
-
-            }
-
-            return generatedCombinations;
-        }
-        private static void Display<T>(List<List<T>> generatedCombinations)
-        {
-            int index = 0;
-            foreach (var generatedCombination in generatedCombinations)
-            {
-                Console.Write("{0}\t:", ++index);
-                foreach (var i in generatedCombination)
-                {
-                    Console.Write("{0,3}", i);
-                }
-                Console.WriteLine();
-            }
-            Console.ReadKey();
-        }
+     
         static void Main(string[] args)
         {
             int OncekiVardiyaBitisi=0;
